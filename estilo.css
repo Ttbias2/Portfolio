@@ -1,0 +1,305 @@
+@font-face{
+    font-family: "miFuente";
+    src: url(Aldrich-Regular.ttf);
+}
+
+/*body-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+body
+{
+    background-color: #E8E8E8;
+    margin: 0%;
+    font-family: "miFuente";
+   
+}
+
+/*Barra-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#BarraSup{
+
+    background-color:#87EBDF  ;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+
+}
+
+#BarraSup button{
+
+    margin-top: 13px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-family: "miFuente";
+    border-color:#DA78DF ;
+    background-color: #DA78DF ;
+}
+
+#BarraSup button:hover{
+
+    background-color:#F184F6   ;
+    border-color:#F184F6  
+
+}
+
+
+/*presentacion-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Presentacion
+{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hola{
+
+    background-color: #87EBDF ;
+    border-radius: 25px;
+    width: 1000px;
+    height: 525px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hola section:first-of-type {
+    width: 25%;
+    font-weight: bold;
+}
+
+#hola section:last-of-type {
+    width: 75%;  
+}
+
+#CV{
+
+    background-color: #DA78DF  ;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+
+}
+
+#CV:hover
+{
+    background-color: #F184F6   ;
+}
+
+
+/*skills-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Skills{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: center;
+}
+
+#Skills img{
+
+    width: 200px;
+    height: 200px;
+
+}
+
+#imagenes
+{
+    margin-left: 25px;
+}
+
+/*portfolio--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Portfolio{
+    
+    width: 100%;
+    height: auto;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#Portfolio article{
+
+    background-color: #87EBDF;
+    border-radius: 15px;
+    margin: 10px;
+    width: 600px;
+    height: 150px;
+    display: inline-flex;
+    position: relative;
+
+}
+
+#Portfolio img{
+
+    width: 200px;
+    padding: 10px;
+
+}
+
+#Portfolio a{
+
+    background-color: #DA78DF ;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: black;
+
+}
+
+#Portfolio a:hover
+{
+    background-color: #F184F6   ;
+}
+
+
+/*contacto---------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#Contacto{
+
+    width: 100%;
+    height: 500px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Mail{
+
+    background-color: #87EBDF;
+    margin-right: 20px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+#Mensaje
+{
+ 
+    width: 250px;
+    height: 150px;
+
+}
+
+#Enviar{
+
+    border-radius: 5px;
+    font-family: "miFuente";
+    border-color:#DA78DF ;
+    background-color: #DA78DF ;
+}
+
+#Enviar:hover{
+
+    background-color:#F184F6   ;
+    border-color:#F184F6  
+
+}
+
+#h1con{
+    font-size: 60px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+    #Contenedor
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #BarraSup button {
+      margin-left: 5px;
+    }
+  
+
+    #Presentacion{
+        height: 720px;
+    }
+
+    #hola {
+      top: 100px;
+      width: 80%;
+      height: 600px;
+      flex-direction: column;
+      font-size: 19px;
+      justify-content: center;
+    }
+
+    #hola section:first-of-type {
+        font-size: 23px;
+        height: 100px;
+        width: 50%;
+    }
+  
+    #Skills {
+      font-size: 30px;
+    }
+  
+    #imagenes{
+      margin-left: 7%;
+    }
+
+    #Skills img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    #Portfolio article {
+      width: 80%;
+      height: auto;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #Portfolio img {
+      width: 80%;
+      width: 200px;
+      height: 150px;
+      padding: 0px;
+    }
+  
+    #Contacto {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    #Mail {
+      width: 80%;
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  
+    #Mensaje {
+      width: 80%;
+      height: 100px;
+    }
+  
+    #Enviar {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  
+    #h1con {
+      font-size: 40px;
+    }
+  
+  }
