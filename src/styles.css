@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(214, 212, 212);
+    margin: 0;
+    color: rgb(228, 223, 217);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: .5rem;
+    border-radius: .7rem;
+    background-color: rgb(74, 74, 75);
+}
+
+a:hover{
+    background-color: rgb(41, 41, 41);
+}

@@ -1,0 +1,51 @@
+#technologyes{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 1rem;
+
+}
+
+#technologyes img{
+    width: 10rem;
+}
+
+#proyectos{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.proyecto{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color: rgb(21,21,21);
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left img{
+    width: 13rem;
+    margin-right: 1rem;
+}
+
+#title{
+   font-size: 2rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+#gl{
+    margin-left: 1rem; 
+}
