@@ -12,8 +12,10 @@ a{
     padding: .5rem;
     border-radius: .7rem;
     background-color: rgb(74, 74, 75);
+    transition: all .2s;
 }
 
 a:hover{
     background-color: rgb(41, 41, 41);
+    box-shadow: 0 0 10px 3px rgba(74, 74, 75, 0.6), 0 0 20px 5px rgba(74, 74, 75, 0.4);
 }

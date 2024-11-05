@@ -20,6 +20,7 @@ section{
     background-color: rgb(21,21,21);
     padding: 1.5rem;
     border-radius: 1rem;
+    box-shadow: 0 0 10px 3px rgba(74, 74, 75, 0.6), 0 0 20px 5px rgba(74, 74, 75, 0.4);
 }
 
 p{
