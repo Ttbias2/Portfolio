@@ -33,7 +33,7 @@
 }
 
 .proyecto:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: 0 0 10px 3px rgba(74, 74, 75, 0.6), 0 0 20px 5px rgba(74, 74, 75, 0.4);
 }
 
