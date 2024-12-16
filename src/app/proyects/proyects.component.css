@@ -1,3 +1,9 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #technologyes{
     display: flex;
     align-items: center;
@@ -11,11 +17,14 @@
 }
 
 #proyectos{
-    margin-top: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    margin-block: 1rem;
+    width: 80rem;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fill,
+        minmax(35rem,1fr)
+    );
+    gap: 16px;
 }
 
 .proyecto{
@@ -46,6 +55,10 @@
 .left img{
     width: 13rem;
     margin-right: 1rem;
+}
+
+.right{
+    width: 100%;
 }
 
 #title{
