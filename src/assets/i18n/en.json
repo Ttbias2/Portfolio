@@ -10,5 +10,6 @@
     "gl":"Github link",
     "gmail": "Send a mail",
     "lnk": "Visit profile",
-    "AE":"Encyclopedia made with the Jikan API to obtain information about all animes."
+    "AE":"Encyclopedia made with the Jikan API to obtain information about all animes.",
+    "FG":"A simplified version of the Freetogame page built using the Web API."
 }
