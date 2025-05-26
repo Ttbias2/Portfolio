@@ -1,0 +1,15 @@
+{
+    "about me": "About me",
+    "proyects": "Technologies and projects",
+    "contact": "Contact",
+    "rol": "Frontend developer",
+    "presentation": "I am a programming graduate from the National Technological University (UTN), where I have learned the foundations of programming logic, the use of various languages, and teamwork through numerous collaborative projects. Technology and programming are my passion, and I am looking for my first opportunity to apply everything I have learned, grow professionally, and contribute to the success of a team.",
+    "pi":"Portfolio designed for the modeling student Isadora Ali",
+    "scg":"A game realized whit the superhero API",
+    "wl":"Web link",
+    "gl":"Github link",
+    "gmail": "Send a mail",
+    "lnk": "Visit profile",
+    "AE":"Encyclopedia made with the Jikan API to obtain information about all animes.",
+    "FG":"A simplified version of the Freetogame page built using the Web API."
+}
