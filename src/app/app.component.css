@@ -48,7 +48,7 @@ nav button.disabled{
 
 input[type='checkbox']:checked + .switch::after{
     transform: translateX(2rem);
-    background-image: url("../assets/flags/bandera\ estados-unidos.png");
+    background-image: url("../assets/flags/bandera-estados-unidos.png");
     content: '';
 }
 
